@@ -10,7 +10,7 @@ project Accelerometre is
    for Target use "arm-eabi";
 
    package Compiler is
-      for Switches ("ada") use ("-g", "-gnatQ", "-gnat2022", "-gnatwa");
+      for Switches ("ada") use ("-g", "-gnatQ", "-gnatwa");
    end Compiler;
 
    package Builder is
